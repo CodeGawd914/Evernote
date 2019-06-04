@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="Font-Awesome-4.7/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/templatemo-style.css">
+    <title>Clever Note</title>
+<!--
+Catalyst Template
+http://www.templatemo.com/tm-499-catalyst
+-->
+</head>
+
+<body>
+
+    <div class="container">
+        <section class="col-md-12 content" id="home">
+           <div class="col-lg-6 col-md-6 content-item tm-black-translucent-bg tm-logo-box">
+              <i class="fa fa-snowflake-o fa-4x tm-logo"></i>
+              <h1 class="text-uppercase" id="user-name">Catalyst</h1>
+
+           </div>
+           <div class="col-lg-6 col-md-6 content-item content-item-1 background tm-white-translucent-bg">
+             <section class="col-md-12 content" id="contact">
+               <div class="col-lg-6 col-md-6 content-item tm-content-box tm-white-translucent-bg">
+
+                 <form id="note-form" action="#" method="post" name="contact-form" class="contact-form">
+                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                     <div class="form-group">
+                       <input name="Title" type="text" class="form-control" id="title" placeholder="Make your note" required>
+                     </div>
+                   </div>
+                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                     <div class="form-group contact-field">
+                       <textarea name="Note" rows="6" class="form-control" id="new_note" placeholder="Message" required></textarea>
+                     </div>
+                   </div>
+                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                     <div class="form-group margin-b-0">
+                       <button type="submit" id="form-submit" class="btn pull-right btn-contact tm-btn-primary">Submit</button>
+                     </div>
+                   </div>
+                 </form>
+                 <!--</div> -->
+                 <div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div>
+
+               </div>
+
+             </section>
+           </div>
+       </section>
+
+       <section class="col-md-12 content padding tm-equal-col-container" id="services">
+        <div class="col-lg-6 col-md-6 col-sm-12 content-item tm-black-translucent-bg tm-services-section-padding">
+          <h2 class="main-title text-center dark-blue-text">Previous Notes</h2>
+           <p id="comment-area"></p>
+           <button type="button" class="btn btn-big pull-right tm-btn-primary">Read More</button>
+       </div>
+      </section>
+
+
+</div>
+
+<div class="text-center footer">
+	<div class="container">
+		Copyright &copy; <span class="tm-current-year">2017</span> Company
+
+        | Design: <a href="http://www.google.com/+templatemo" target="_parent">templatemo</a>
+    </div>
+</div>
+<script src="index.js"></script>
+
+<script>
+
+// Write current year in copyright text.
+  document.getElementsByClassName("tm-current-year").value = new Date().getFullYear();
+
+</script>
+</body>
+</html>
